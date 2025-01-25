@@ -3,7 +3,6 @@ export default function Home() {
         <ul>
             <li><a href="https://pds.cinira.net/adsb/">ADS-B Map</a></li>
             <li><a href="https://pds.cinira.net/airband/91c.mp3">91C CTAF (122.9)</a></li>
-            <li><a href="https://pds.cinira.net/airband/91c.mp3">91C CTAF (122.9)</a></li>
             <li><a href="https://pds.cinira.net/airband/dll.mp3">DLL CTAF (123.05)</a></li>
             <li><a href="https://pds.cinira.net/airband/c29.mp3">C29 CTAF (123.0)</a></li>
             <li><a href="https://pds.cinira.net/airband/c35.mp3">C35 CTAF (122.8)</a></li>
