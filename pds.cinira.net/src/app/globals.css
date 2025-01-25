@@ -8,8 +8,12 @@
 body {
 }
 
+a:hover {
+    color: theme('colors.blue.500');
+}
+
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: balance;
+    }
 }

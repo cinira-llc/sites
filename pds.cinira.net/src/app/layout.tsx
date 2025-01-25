@@ -23,8 +23,7 @@ export default function RootLayout(props: Readonly<PropsWithChildren>) {
         <body className={inter.className}>
         <Script src="/js/status.js"/>
         <header/>
-        <h1>pds.cinira.net</h1>
-        <div>
+        <div className="m-8">
             {children}
         </div>
         </body>
