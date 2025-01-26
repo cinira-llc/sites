@@ -5,11 +5,11 @@ import _ from "lodash";
 const config = async (phase: string) => {
     const config: NextConfig = {
         env: {
-            BUILD_SHA: await new Promise((resolve) => {
-                exec("git describe --abbrev=11 --always --dirty --first-parent --long --tags",
+            BUILD_SOURCE: await new Promise((resolve, reject) => {
+                exec("git describe --abbrev=8 --always --dirty --first-parent --long --tags",
                     (err, stdout) => {
                         if (err) {
-                            resolve("unknown");
+                            reject(err);
                         }
                         resolve(_.trim(stdout));
                     });

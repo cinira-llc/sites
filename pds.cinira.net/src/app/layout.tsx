@@ -7,12 +7,12 @@ import "./globals.css";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    title: "Cinira Demo",
-    description: "Cinira components demo.",
+    title: "Cinira Projects",
+    description: "Cinira projects and local resources.",
     other: {
-        cinBuildSource: process.env["BUILD_SOURCE"]!,
-        cinBuildTimestamp: process.env["BUILD_TIMESTAMP"]!,
-        cinBuildVersion: process.env["npm_package_version"]!,
+        cnBuildSource: process.env["BUILD_SOURCE"]!,
+        cnBuildTimestamp: process.env["BUILD_TIMESTAMP"]!,
+        cnBuildVersion: process.env["npm_package_version"]!,
     },
 };
 
