@@ -23,8 +23,10 @@ export default function RootLayout(props: Readonly<PropsWithChildren>) {
         <body className={inter.className}>
         <Script src="/js/status.js"/>
         <header/>
-        <div className="m-8">
-            {children}
+        <div className="h-screen flex items-center justify-center bg-transparent">
+            <div className="p-4 rounded-lg shadow-md inline-block">
+                {children}
+            </div>
         </div>
         </body>
         </html>
