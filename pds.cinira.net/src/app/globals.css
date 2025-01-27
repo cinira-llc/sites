@@ -74,12 +74,12 @@ a:hover {
         @apply border-border;
     }
 
-    body {
-        @apply bg-background text-foreground;
+    html {
+        background: linear-gradient(rgba(246, 250, 246, 0.99), rgba(246, 250, 246, 0.99)), url("icon.svg") no-repeat center center fixed;
+        background-size: cover;
     }
 
-    html {
-        background: linear-gradient(rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.98)), url("icon.svg") no-repeat center center fixed;
-        background-size: cover;
+    body {
+        @apply text-foreground;
     }
 }

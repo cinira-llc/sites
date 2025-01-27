@@ -1,6 +1,3 @@
-import PasswordEncryptForm from "@/components/crypto/PasswordEncryptForm";
-import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
-
 export default function Home() {
     return (
         <>
